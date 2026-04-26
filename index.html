@@ -644,7 +644,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <ul class="space-y-4 text-sm">
                             <li class="flex items-center gap-3">
                                 <i class="fas fa-phone text-gold"></i>
-                                <span dir="ltr">01040357997</span>
+                                <span dir="ltr">01001503496</span>
                             </li>
                             <li class="flex items-center gap-3">
                                 <i class="fas fa-mobile-alt text-gold"></i>
@@ -673,14 +673,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </footer>
 
-        <!-- New Floating Call Button (Responsive for Mobile) -->
-        <div id="floating-call-btn-container" class="fixed bottom-4 left-4 md:bottom-6 md:left-6 z-40 transition-transform duration-500 ease-in-out">
-            <button onclick="openModal()" class="bg-primary-accent text-white p-3 md:px-6 md:py-4 rounded-full md:rounded-xl shadow-lg shadow-blue-500/40 flex items-center gap-3 hover:scale-105 transition-transform group hover:bg-blue-600 focus:outline-none">
-                <span class="font-bold text-sm md:text-lg hidden md:inline-block">إعرف سعر نقل العفش الآن</span>
-                <div class="bg-white/20 w-10 h-10 md:w-auto md:h-auto md:p-2 rounded-full md:rounded-lg flex items-center justify-center group-hover:bg-white/30 transition-colors">
-                    <i class="fas fa-phone-volume animate-pulse text-lg md:text-base"></i>
+        <!-- Floating Call Buttons (Responsive for Mobile) -->
+        <div id="floating-call-btn-container" class="fixed bottom-4 left-4 md:bottom-6 md:left-6 z-40 flex flex-col gap-3 transition-transform duration-500 ease-in-out">
+            <a href="tel:01001503496" class="direct-call bg-green-600 text-white px-4 py-2.5 md:px-5 md:py-3 rounded-full shadow-lg shadow-green-500/40 flex items-center gap-3 hover:scale-105 transition-transform group hover:bg-green-700 focus:outline-none">
+                <div class="bg-white/20 w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
+                    <i class="fas fa-phone-volume fa-flip-horizontal animate-pulse text-sm md:text-base"></i>
                 </div>
-            </button>
+                <span class="font-bold text-sm md:text-lg tracking-wider" dir="ltr">01001503496</span>
+            </a>
+            
+            <a href="tel:01040357997" class="direct-call bg-primary-accent text-white px-4 py-2.5 md:px-5 md:py-3 rounded-full shadow-lg shadow-blue-500/40 flex items-center gap-3 hover:scale-105 transition-transform group hover:bg-blue-600 focus:outline-none">
+                <div class="bg-white/20 w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
+                    <i class="fas fa-phone-volume fa-flip-horizontal animate-pulse text-sm md:text-base"></i>
+                </div>
+                <span class="font-bold text-sm md:text-lg tracking-wider" dir="ltr">01040357997</span>
+            </a>
         </div>
 
         <!-- ☀️ Summer Offer Banner (Responsive Fixes) -->
@@ -738,17 +745,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <h3 class="text-xl md:text-2xl font-black text-slate-800 mb-2">تفضل بالاتصال بنا</h3>
                     <p class="text-slate-500 mb-6 md:mb-8 text-sm md:text-base leading-relaxed">اضغط على الأرقام أدناه للاتصال المباشر بفريقنا.</p>
                     
-                    <a href="tel:01040357997" onclick="setTimeout(closeModal, 500)" class="flex flex-col items-center justify-center gap-2 bg-green-50 border-2 border-green-500 text-green-700 py-3 md:py-4 px-2 rounded-xl hover:bg-green-100 transition-colors shadow-lg shadow-green-500/20 group relative overflow-hidden">
-                        <div class="flex items-center gap-3 md:gap-4 relative z-10">
-                            <div class="flex flex-col items-center justify-center">
-                                <span class="font-black text-lg md:text-xl tracking-widest leading-none" dir="ltr">01040357997</span>
-                         
+                    <div class="flex flex-col gap-3">
+                        <a href="tel:01001503496" onclick="setTimeout(closeModal, 500)" class="flex flex-col items-center justify-center gap-2 bg-green-50 border-2 border-green-500 text-green-700 py-3 md:py-4 px-2 rounded-xl hover:bg-green-100 transition-colors shadow-lg shadow-green-500/20 group relative overflow-hidden">
+                            <div class="flex items-center gap-3 md:gap-4 relative z-10">
+                                <div class="flex flex-col items-center justify-center">
+                                    <span class="font-black text-lg md:text-xl tracking-widest leading-none" dir="ltr">01001503496</span>
+                                </div>
+                                <div class="w-10 h-10 md:w-12 md:h-12 bg-green-500 text-white rounded-full flex items-center justify-center group-hover:scale-110 transition-transform shadow-md flex-shrink-0">
+                                    <i class="fas fa-phone text-lg md:text-xl"></i>
+                                </div>
                             </div>
-                            <div class="w-10 h-10 md:w-12 md:h-12 bg-green-500 text-white rounded-full flex items-center justify-center group-hover:scale-110 transition-transform shadow-md flex-shrink-0">
-                                <i class="fas fa-phone text-lg md:text-xl"></i>
+                        </a>
+                        
+                        <a href="tel:01040357997" onclick="setTimeout(closeModal, 500)" class="flex flex-col items-center justify-center gap-2 bg-blue-50 border-2 border-blue-500 text-blue-700 py-3 md:py-4 px-2 rounded-xl hover:bg-blue-100 transition-colors shadow-lg shadow-blue-500/20 group relative overflow-hidden">
+                            <div class="flex items-center gap-3 md:gap-4 relative z-10">
+                                <div class="flex flex-col items-center justify-center">
+                                    <span class="font-black text-lg md:text-xl tracking-widest leading-none" dir="ltr">01040357997</span>
+                                </div>
+                                <div class="w-10 h-10 md:w-12 md:h-12 bg-blue-500 text-white rounded-full flex items-center justify-center group-hover:scale-110 transition-transform shadow-md flex-shrink-0">
+                                    <i class="fas fa-phone text-lg md:text-xl"></i>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                     
                     <button onclick="closeModal()" class="mt-4 md:mt-6 text-slate-400 hover:text-slate-600 font-bold transition-colors text-sm md:text-base">
                         إغلاق النافذة
@@ -914,7 +933,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         document.addEventListener('DOMContentLoaded', () => {
             const telLinks = document.querySelectorAll('a[href^="tel:"]');
             telLinks.forEach(link => {
-                if (!link.closest('#call-modal')) {
+                // Ignore the direct-call class and the modal links so they just make the call immediately
+                if (!link.closest('#call-modal') && !link.classList.contains('direct-call')) {
                     link.addEventListener('click', (e) => {
                         e.preventDefault();
                         openModal();
